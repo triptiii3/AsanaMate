@@ -10,6 +10,5 @@
 
   ![S1](https://github.com/Ajay4486/Virtual-Yoga-Trainer/blob/main/images/s1.png)
 
-  ![S2](https://github.com/Ajay4486/Virtual-Yoga-Trainer/blob/main/images/s2.png)
 
   ![S3](https://github.com/Ajay4486/Virtual-Yoga-Trainer/blob/main/images/s3.png)
