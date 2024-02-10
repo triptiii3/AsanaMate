@@ -1,4 +1,4 @@
-## Virtual AI Yoga Trainer
+## YogaIntellij - Virtual AI Yoga Trainer
 
   - Developed an innovative solution that helps user to perform Yoga Exercises at their remote places.
   - Makes use of tensorflow Movenet model to identify key points and coordinates of human posture.
