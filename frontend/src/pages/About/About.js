@@ -9,20 +9,20 @@ export default function About() {
             <h1 className="about-heading">About</h1>
             <div className="about-main">
                 <p className="about-content">
-                    This is an realtime AI based Yoga Trainer which detects your pose how well you are doing.
-                    I created this as a personal project, and I have also deployed this project
-                    so people can use it and mainly the developers can who are learning AI can learn 
-                    from this project and make their own AI or they can also improve in this project.
-                    This is an open source project, The code is available on the GitHub - <a href="https://github.com/harshbhatt7585/YogaIntelliJ">https://github.com/harshbhatt7585/YogaIntelliJ</a>
-                    
-                    This AI first predicts keypoints or coordinates of different parts of the body(basically where
-                    they are present in an image) and then it use another classification model to classify the poses if 
-                    someone is doing a pose and if AI detects that pose more than 95% probability and then it will notify you are 
-                    doing correctly(by making virtual skeleton green). I have used Tensorflow pretrained Movenet Model To Predict the 
-                    Keypoints and building a neural network top of that which uses these coordinates and classify a yoga pose.
+                    Welcome to AI Yoga Trainer, aimed at advancing AI-driven human activity recognition through yoga pose analysis.AI Yoga Trainer utilizes state-of-the-art technologies, combining TensorFlow with pre-trained MoveNet models to accurately predict and analyze key body points in yoga poses. By leveraging machine learning, this project provides real-time feedback on pose accuracy, enhancing the yoga learning experience.
 
-                    I have trained the model in python because of tensorflowJS we can leverage the support of browser so I converted 
-                    the keras/tensorflow model to tensorflowJS.
+                    Key Features:
+                    Pose Detection: TensorFlow MoveNet models accurately predict and track key body points in real-time yoga images.Pose Classification: A custom neural network built on TensorFlow processes these keypoints to classify yoga poses with precision.
+                    Real-time Feedback: Visual feedback system highlights correct pose execution by turning virtual skeletons green.Open Source: Accessible source code on GitHub for developers to learn, customize, and contribute.
+                    
+                    How It Works:AI Yoga Trainer operates through a two-step process:
+                    Keypoint Prediction: TensorFlow MoveNet models detect and predict the coordinates of body keypoints in yoga poses.Pose Classification: A custom neural network processes these keypoints to classify and evaluate yoga poses, providing instant feedback on posture correctness.
+                    
+                    Who Is This For?
+                    Developers: Ideal for AI enthusiasts and developers interested in human activity recognition and pose analysis applications.
+                    Yoga Enthusiasts: Enhances yoga practice by offering real-time feedback and guidance on posture correctness.
+                    
+                    Whether you're exploring AI applications in fitness or seeking to contribute to the development of AI-enhanced yoga tools, AI Yoga Trainer invites you to delve into the intersection of AI and yoga practice.
                 </p>
                 
             </div>
