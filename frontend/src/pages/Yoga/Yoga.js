@@ -13,6 +13,7 @@ import DropDown from '../../components/DropDown/DropDown';
 import { poseImages } from '../../utils/pose_images';
 import { POINTS, keypointConnections } from '../../utils/data';
 import { drawPoint, drawSegment } from '../../utils/helper'
+import Navbar from '../../components/Navbar/Navbar';
 
 
 
@@ -213,6 +214,7 @@ function Yoga() {
   if(isStartPose) {
     return (
       <div className="yoga-container">
+        <Navbar/>
         <div className="performance-container">
             <div className="pose-performance">
               <h4>Pose Time: {poseTime} s</h4>
@@ -268,6 +270,7 @@ function Yoga() {
     <div
       className="yoga-container"
     >
+      <Navbar />
       <DropDown
         poseList={poseList}
         currentPose={currentPose}

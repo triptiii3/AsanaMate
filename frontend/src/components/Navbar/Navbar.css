@@ -1,0 +1,23 @@
+ .home-header {
+
+     width: 100vw;
+     height: 70px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ .explore-btn{
+    background: #01476f;
+    color: #fff;
+    border-radius: 5px;
+    width: 100px;
+ }
+
+ .header-btn:hover {
+     border-color: white;
+ }
+
+ .home-main {
+     display: flex;
+ }

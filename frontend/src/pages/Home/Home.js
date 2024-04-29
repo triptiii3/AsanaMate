@@ -1,28 +1,21 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 import './Home.css'
+import Navbar from '../../components/Navbar/Navbar'
+import { Link } from 'react-router-dom'
 
 export default function Home() {
 
     return (
         <div className='home-container'>
-            <div className='home-header'>
-                <h1 className='home-heading'>YogaIntelliJ</h1>
-                <Link to='/about'>
-                    <button 
-                        className="btn btn-secondary" 
-                        id="about-btn"
-                    >
-                        About
-                    </button>
-                </Link>
-            </div>
+          
 
-            <h1 className="description">A Yoga AI Trainer</h1>
+          <Navbar/>
             <div className="home-main">
-                <div className="btn-section">
-                    <Link to='/start'>
+               
+                <div className="btn-section"> 
+                 <h1 className="description">ASANA<br/>MATE</h1>
+                    {/* <Link to='/start'>
                         <button
                             className="btn start-btn"
                         >Let's Start</button>
@@ -31,10 +24,15 @@ export default function Home() {
                         <button
                             className="btn start-btn"
                         >Tutorials</button>
-                    </Link>
+                    </Link> */}
 
+                </div>
+                
+                <div className='image'>
+                    <img src='./yogasan.png' className='yoga-img'/>
                 </div>
             </div>
         </div>
     )
 }
+

@@ -1,7 +1,7 @@
 .tutorials-container {
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(100deg, #FF8C00, #FFA500);
+background: linear-gradient(#83bedf, #fff);
 }
 .tutorials-heading {
     font-size: 54px;
@@ -12,7 +12,7 @@
 }
 
 .tutorials-content {
-    color: white;
+    color:#01476f;
     font-size: 18px;
     margin: auto;
     margin-left: 100px;

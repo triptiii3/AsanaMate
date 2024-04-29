@@ -25,7 +25,6 @@
 .dropdown-option {
     background: url('../../utils/pose_images/chair.png');
 }
-
 .dropdown-custom-menu {
     overflow: scroll;
     height: 40vh;
@@ -35,6 +34,11 @@
 
 .dropdown-custom-menu::-webkit-scrollbar {
     display: none;
+}
+.dropdown-toggle{
+    background: #01476f;
+        color: #fff;
+        border-radius: 5px;
 }
 
 .dropdown-item-container {
